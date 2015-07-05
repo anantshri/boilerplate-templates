@@ -57,7 +57,7 @@ $('#vuln .typeahead').typeahead(null, {
       '</div>'
     ].join('\n'),
     suggestion: function(data){
-      return '<h5><a href="' + 'http://owtf.github.com/boilerplate-templates' + data.link + '">' + data.name + '</a></h5>';
+      return '<h5><a href="' + '/boilerplate-templates' + data.link + '">' + data.name + '</a></h5>';
     }
   }
 });
