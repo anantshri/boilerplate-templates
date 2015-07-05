@@ -9,3 +9,4 @@ markdown:     kramdown
 pygments:    true
 future:      true
 baseurl:  //anantshri.github.io/boilerplate-templates
+project_name: boilerplate-templates
