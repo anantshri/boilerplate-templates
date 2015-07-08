@@ -38,16 +38,10 @@ b.readyState)return N=b}),e=N;e&&(b||(b=e.getAttribute("data-requiremodule")),g=
 
 /*var data = [{"name":"Cross Site Scripting","link":"/templates/xss",},{"name":"SQL Injection","link":"/templates/sql-injection",},{"name":"Cross Site Request Forgery","link":"/templates/csrf",},{"name":"Clickjacking","link":"/templates/clickjacking",},{"name":"Broken Authentication and Session Management","link":"/templates/broken-auth-and-session",},{"name":"Unvalidated Redirects and Forwards","link":"/templates/unvalidated-redirects"}]
 */
-//var data= JSON.parse('/json.json');
-var data="";
-$.getJSON("json.json", function(json) {
-    //console.log(json); // this will show the info it in firebug console
-    data=json;
-});
 var vulns = new Bloodhound({
   datumTokenizer: Bloodhound.tokenizers.obj.whitespace('name'),
   queryTokenizer: Bloodhound.tokenizers.whitespace,
-  prefetch: '/json.json'
+  prefetch: '/boilerplate-templates/json.json'
 });
 
 vulns.initialize();
