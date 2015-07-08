@@ -23,7 +23,7 @@ For more information on POODLE:-
 
 Mitigation: 
 -------------
-
+ 
 The vulnerability affects the server which support SSL version 3.0 using CBC ciphers. However since its a implementation bug and the remaining RC4 cipher suites are aleady considered vulnerable hence it is recommended to disable SSLv3 completely.
 
 
