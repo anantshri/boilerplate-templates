@@ -47,7 +47,7 @@ $.getJSON("json.json", function(json) {
 var vulns = new Bloodhound({
   datumTokenizer: Bloodhound.tokenizers.obj.whitespace('name'),
   queryTokenizer: Bloodhound.tokenizers.whitespace,
-  local: data
+  prefetch: '/json.json'
 });
 
 vulns.initialize();
