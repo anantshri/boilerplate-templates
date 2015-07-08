@@ -8,4 +8,5 @@ author:
 markdown:     kramdown
 pygments:    true
 future:      true
-baseurl:  http://owtf.github.io/boilerplate-templates
+baseurl:  //anantshri.github.io/boilerplate-templates
+projectname: boilerplate-templates
