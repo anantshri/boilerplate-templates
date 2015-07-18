@@ -22,7 +22,7 @@ layout: default
   <tbody>
   {% for vuln in site.data.vulns %}
     <tr>
-      <td>{{ vuln.id }}</td>
+      <td>{{ forloop.index }}</td>
       <td><a href="/{{site.projectname}}{{ vuln.url }}">{{ vuln.name }}</a></td>
       <td>{{ site.time }}</td>
       <td><a href="https://github.com/{{ vuln.author }}">{{ vuln.author }}</a></td>
