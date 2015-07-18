@@ -1,6 +1,7 @@
 ---
 layout: template
 title: SSL v3 POODLE (Padding Oracle On Downgraded Legacy Encryption)
+author: anantshri
 ---
 
 Synopsis:
